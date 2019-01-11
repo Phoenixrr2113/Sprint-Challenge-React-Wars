@@ -1,0 +1,34 @@
+.char-container {
+	margin: 40px auto;
+	width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.chars {
+	background-color: beige;
+	border-radius: 5px;
+	margin: 20px auto;
+	padding-bottom: 10px;
+	width: 300px;
+	height: auto;
+}
+
+.char-name {
+	border-radius: 5px 5px 0 0;
+	color: rgb(107, 103, 103);
+	background-color: rgb(184, 159, 129);
+	padding: 8px 0;
+	font-weight: 700;
+	font-size: 20px;
+	cursor: pointer;
+}
+.name {
+	width: auto;
+}
+
+.char-stats {
+	margin: 8px 0;
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: bold;
+}
